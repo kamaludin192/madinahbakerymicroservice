@@ -1,0 +1,16 @@
+{
+  "name": "madinah-bakery-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "order-service.js",
+  "scripts": {
+    "start:order": "node order-service.js",
+    "start:inventory": "node inventory-service.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.1.1"
+  }
+}
